@@ -1,7 +1,7 @@
 const db = require('./db')
 const Sequelize = require('sequelize')
 
-const User = db.define('restrooms',{
+const User = db.define('user',{
     mainImgUrl  : {
         type : Sequelize.TEXT,
     },
