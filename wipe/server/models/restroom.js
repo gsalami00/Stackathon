@@ -1,7 +1,7 @@
 const db = require('./db')
 const Sequelize = require('sequelize')
 
-const RestRooms = db.define('restrooms',{
+const Restroom = db.define('restroom',{
     mainImgUrl  : {
         type : Sequelize.TEXT,
     },
@@ -20,7 +20,7 @@ const RestRooms = db.define('restrooms',{
         }
     },
     hours: {
-        type: Sequelize.ARRAY
+        type: Sequelize.ARRAY(Sequelize.STRING)
     },
     waitTime : {
         type: Sequelize.STRING
@@ -36,4 +36,4 @@ const RestRooms = db.define('restrooms',{
     }
 })
 
-module.exports = RestRooms
+module.exports = Restroom
