@@ -9,7 +9,7 @@ const User = db.define('restrooms',{
         type : Sequelize.STRING,
         allowNull : false,
         validate : {
-            len : [0,250]
+            len : [1,250]
         }
     },
     lastName : {

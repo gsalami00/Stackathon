@@ -9,14 +9,14 @@ const Restroom = db.define('restroom',{
         type : Sequelize.STRING,
         allowNull : false,
         validate : {
-            len : [0,250]
+            len : [1,250]
         }
     },
     name : {
         type: Sequelize.STRING,
         allowNull : false,
         validate : {
-            len : [0,250]
+            len : [1,250]
         }
     },
     hours: {
