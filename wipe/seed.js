@@ -4,43 +4,41 @@ const Restroom = require('./server/models/')
 
 const users = [
   {
-      id: 1,
       firstName: "Adnan",
       lastName: "Adrian",
       email: "adnan@adrian.com",
   },
   {
-      id: 2,
       firstName: "Ali",
       lastName: "Aftab",
       email: "ali@aftab.com",
   },
   {
-      id: 3,
+    
       firstName: "Aaron",
       lastName: "Whitsit",
       email: "aaron@whitsit.com",
   },
   {
-      id: 4,
+ 
       firstName: "Prince",
       lastName: "Donkor",
       email: "prince@donkor.com",
   },
   {
-      id: 5,
+  
       firstName: "Gini",
       lastName: "Salami",
       email: "gini@salami.com",
   },
   {
-    id: 6,
+  
     firstName: "Maureen",
     lastName: "Llamas",
     email: "mau@llamas.com",
   },
   {
-    id: 7,
+  
     firstName: "Teppie",
     lastName: "Aquino",
     email: "teppie@aquino.com",
@@ -52,7 +50,7 @@ const users = [
     email: "michael@lin.com",
   },
   {
-    id: 9,
+
     firstName: "Stephen",
     lastName: "Chow",
     email: "stephen@chow.com",
@@ -70,7 +68,7 @@ const users = [
     email: "graham@johnson.com",
   },
   {
-    id: 12,
+
     firstName: "Francisco",
     lastName: "Huergo",
     email: "francisco@huergo.com",
@@ -78,7 +76,7 @@ const users = [
 ]
 
 const restrooms = [{
-  id: 1,
+ 
   mainImgUrl: "http://mostfinedup.club/wp-content/uploads/2017/10/mcdonalds-bathroom-bathroom-mcdonalds-bathroom-policy.jpg",
   name: "McDonald's",
   address: "1560 Broadway, New York, NY 10036",
@@ -89,7 +87,7 @@ const restrooms = [{
   free: true
 },
 {
-  id: 2,
+
   mainImgUrl: "https://media-cdn.tripadvisor.com/media/photo-s/11/da/36/c7/photo2jpg.jpg",
   name: "TGI Fridays",
   address: "147 W 46th St. New York, NY 10036",
@@ -106,7 +104,7 @@ const restrooms = [{
   free: false
 },
 {
-  id: 3,
+
   mainImgUrl: "https://wasfaa.org/b/wp-content/uploads/2012/12/Starbucks-Bathroom.jpg",
   name: "Starbucks",
   address: "1535 Broadway, New York, NY 10036",
@@ -123,7 +121,7 @@ const restrooms = [{
   free: true
 },
 {
-  id: 4,
+
   mainImgUrl: "https://amc-theatres-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,w_321/v1/amc-cdn/general/img/4.2_tu_restroom_promo-217.jpg",
   name: "AMC Empire 25",
   address: "234 W 42nd St. New York, NY 10036",
@@ -134,7 +132,7 @@ const restrooms = [{
   free: false
 },
 {
-  id: 5,
+
   mainImgUrl: "https://s3-media2.fl.yelpcdn.com/bphoto/2UGPyoR2dosOTaYnDb9TOQ/o.jpg",
   name: "Olive Garden Italian Restaurant",
   address: "2 Times Sq. New York, NY 10036",
@@ -151,7 +149,7 @@ const restrooms = [{
   free: false
 },
 {
-  id: 6,
+
   mainImgUrl: "http://blog.etundra.com/wp-content/Media/2015/07/restroom-bathroom-nice-interior.png",
   name: "Junior's Cheesecake",
   address: "1515 Broadway, New York, NY 10036",
@@ -168,7 +166,7 @@ const restrooms = [{
   free: false
 },
 {
-  id: 7,
+
   mainImgUrl: "https://i.pinimg.com/236x/83/f2/f1/83f2f11e5117a1fe472b97a90893928d--barn-bathroom-gold-bathroom.jpg",
   name: "Carmine’s Italian Restaurant",
   address: "200 W 44th St. New York, NY 10036",
@@ -185,7 +183,7 @@ const restrooms = [{
   free: false
 },
 {
-  id: 8,
+
   mainImgUrl: "https://s3-media1.fl.yelpcdn.com/bphoto/1zmYv4Pfet2aeJo38uCyKw/ls.jpg",
   name: "Patzeria Perfect Pizza",
   address: "231 W 46th St. New York, NY 10036",
@@ -202,7 +200,7 @@ const restrooms = [{
   free: false
 },
 {
-  id: 9,
+
   mainImgUrl: "http://themeparkuniversity.com/wp-content/uploads/2013/04/hrp060508-186.jpg",
   name: "Hard Rock Cafe",
   address: "1501 Broadway, New York, NY 10036",
@@ -219,7 +217,7 @@ const restrooms = [{
   free: false
 },
 {
-  id: 10,
+
   mainImgUrl: "https://media-cdn.tripadvisor.com/media/photo-s/0f/82/d6/3a/me-n-my-pals-in-jimmys.jpg",
   name: "Jimmy's Corner",
   address: "140 W 44th St. New York, NY 10036",
